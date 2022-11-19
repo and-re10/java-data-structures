@@ -16,6 +16,11 @@ public class WorkingWithLists {
         // colors.add(Object()); // ERROR
         // Print the array list
         System.out.println(colors);
+        // Print the size of the list
+        System.out.println(colors.size());
+        // Print if the list containes yellow (true) and pink (false)
+        System.out.println(colors.contains("yellow"));
+        System.out.println(colors.contains("pink"));
 
     }
 }
