@@ -21,6 +21,16 @@ public class WorkingWithLists {
         // Print if the list containes yellow (true) and pink (false)
         System.out.println(colors.contains("yellow"));
         System.out.println(colors.contains("pink"));
-
+        // Loop through the list
+        // 1st
+        for (String color : colors) {
+            System.out.println(color);
+        }
+        // 2nd
+        colors.forEach(System.out::println);
+        // 3rd
+        for (int i = 0; i < colors.size(); i++) {
+            System.out.println(colors.get(i));
+        }
     }
 }
