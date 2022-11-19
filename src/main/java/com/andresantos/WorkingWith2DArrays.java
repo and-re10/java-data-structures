@@ -18,6 +18,13 @@ public class WorkingWith2DArrays {
         board[2][0] = 'O';
         // Print the 2D array as a string
         System.out.println(Arrays.deepToString(board));
-
+        // 2nd way to create a 2D Array
+        char[][] boardTwo = new char[][]{
+                new char[]{'O', '-', '-'},
+                new char[]{'O', '-', '-'},
+                new char[]{'O', '-', '-'}
+        };
+        // Print the new Array
+        System.out.println(Arrays.deepToString(boardTwo));
     }
 }
