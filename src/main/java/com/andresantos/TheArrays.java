@@ -13,5 +13,9 @@ public class TheArrays {
         System.out.println(colors[0]);
         System.out.println(colors[1]);
 
+        colors[2] = "yellow";
+        System.out.println(Arrays.toString(colors));
+
+
     }
 }
