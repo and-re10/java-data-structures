@@ -32,5 +32,12 @@ public class WorkingWithLists {
         for (int i = 0; i < colors.size(); i++) {
             System.out.println(colors.get(i));
         }
+        // Unmodifiable list
+        List<String> colorsUnmodifiable = List.of(
+                "blue",
+                "yellow"
+        );
+        // We cannot change this list
+        // colorsUnmodifiable.add("pink"); // ERROR
     }
 }
