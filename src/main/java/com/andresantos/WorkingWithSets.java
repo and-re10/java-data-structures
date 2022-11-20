@@ -17,6 +17,8 @@ public class WorkingWithSets {
         balls.forEach(System.out::println);
         // Remove red ball from the balls Set
         balls.remove(new Ball("red"));
+        // Print the new size of the balls Set
+        System.out.println(balls.size());
 
     }
 
