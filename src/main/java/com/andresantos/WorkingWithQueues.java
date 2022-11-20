@@ -5,6 +5,10 @@ import java.util.Queue;
 
 public class WorkingWithQueues {
     public static void main (String[] args) {
+        LinkedList<Person> linkedList = new LinkedList<>();
+    }
+
+    private static void queues() {
         // Create a new Queue
         Queue<Person> queue = new LinkedList<>();
         // Add 3 persons to the Queue
