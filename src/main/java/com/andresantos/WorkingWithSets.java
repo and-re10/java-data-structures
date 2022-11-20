@@ -11,6 +11,8 @@ public class WorkingWithSets {
         balls.add(new Ball("blue"));
         balls.add(new Ball("yellow"));
         balls.add((new Ball("red")));
+        // Print the size of the set
+        System.out.println(balls.size());
 
     }
 
