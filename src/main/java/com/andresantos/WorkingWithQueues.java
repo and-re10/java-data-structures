@@ -5,7 +5,13 @@ import java.util.Queue;
 
 public class WorkingWithQueues {
     public static void main (String[] args) {
+        // Create a new Linked List of Persons
         LinkedList<Person> linkedList = new LinkedList<>();
+        // Add 2 persons to the Linked List
+        linkedList.add(new Person("Alex", 21));
+        linkedList.add(new Person("Alexa", 21));
+
+
     }
 
     private static void queues() {
