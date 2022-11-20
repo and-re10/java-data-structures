@@ -15,8 +15,10 @@ public class WorkingWithQueues {
         linkedList.add(1, new Person("Ali", 18));
         // Create a ListIterator
         ListIterator<Person> personListIterator = linkedList.listIterator();
-
-
+        // Loop through the linked list from the first to the last
+        while(personListIterator.hasNext()) {
+            System.out.println(personListIterator.next());
+        }
     }
 
     private static void queues() {
