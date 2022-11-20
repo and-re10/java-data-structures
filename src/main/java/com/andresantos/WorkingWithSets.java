@@ -11,8 +11,10 @@ public class WorkingWithSets {
         balls.add(new Ball("blue"));
         balls.add(new Ball("yellow"));
         balls.add((new Ball("red")));
-        // Print the size of the set
+        // Print the size of the balls Set
         System.out.println(balls.size());
+        // Print all the balls in the balls set
+        balls.forEach(System.out::println);
 
     }
 
