@@ -19,7 +19,7 @@ public class WorkingWithQueues {
         while (personListIterator.hasNext()) {
             System.out.println(personListIterator.next());
         }
-        // Loop through the linked list from the first to the last
+        // Loop through the linked list from the last to the first
         while (personListIterator.hasPrevious()) {
             System.out.println(personListIterator.previous());
         }
