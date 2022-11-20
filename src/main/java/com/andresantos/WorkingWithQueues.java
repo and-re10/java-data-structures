@@ -16,8 +16,12 @@ public class WorkingWithQueues {
         // Create a ListIterator
         ListIterator<Person> personListIterator = linkedList.listIterator();
         // Loop through the linked list from the first to the last
-        while(personListIterator.hasNext()) {
+        while (personListIterator.hasNext()) {
             System.out.println(personListIterator.next());
+        }
+        // Loop through the linked list from the first to the last
+        while (personListIterator.hasPrevious()) {
+            System.out.println(personListIterator.previous());
         }
     }
 
