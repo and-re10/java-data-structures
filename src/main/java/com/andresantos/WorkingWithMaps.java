@@ -11,7 +11,8 @@ public class WorkingWithMaps {
         map.put(1, new Person("Alex"));
         map.put(2, new Person("Alexa"));
         map.put(3, new Person("Ali"));
-
+        // Print the map
+        System.out.println(map);
     }
 
     static record Person (String name) {}
