@@ -1,6 +1,7 @@
 package com.andresantos;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 public class WorkingWithSets {
@@ -20,10 +21,22 @@ public class WorkingWithSets {
         // Print the new size of the balls Set
         System.out.println(balls.size());
         // Add a repeated blue ball to the balls Set
+        // For Ball as a record, the Set don't add the repeated element
+        // For Ball as a class we need to override the equals and the HashCode to the class
+        // Without the override, the ball will be repeated in the Set
         balls.add(new Ball("blue"));
 
     }
 
-    // Creating a Ball with record
-    record Ball (String color) {}
+    // Creating a Ball as a record
+    // record Ball (String color) {}
+    // Creating Ball as a class
+    static class Ball {
+        String color;
+        public Ball(String color) {
+            this.color = color;
+        }
+
+
+    }
 }
