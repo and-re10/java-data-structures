@@ -11,7 +11,16 @@ public class WorkingWithQueues {
         queue.add(new Person("Alex", 21));
         queue.add(new Person("Mariam", 18));
         queue.add(new Person("ALi", 40));
-
+        // Print the size of the Queue
+        System.out.println(queue.size());
+        // Print the first item of the Queue
+        System.out.println(queue.peek());
+        // Remove and print the first item of the Queue
+        System.out.println(queue.poll());
+        // Print the new size of the Queue
+        System.out.println(queue.size());
+        // Print the new first item of the Queue
+        System.out.println(queue.peek());
     }
 
     static record Person (String name, int age){}
