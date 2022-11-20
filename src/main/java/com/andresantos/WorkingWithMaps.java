@@ -13,6 +13,8 @@ public class WorkingWithMaps {
         map.put(3, new Person("Ali"));
         // Print the map
         System.out.println(map);
+        // Add a new person with an existing key
+        map.put(3, new Person("Ali 2"));
     }
 
     static record Person (String name) {}
