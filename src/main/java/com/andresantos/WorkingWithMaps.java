@@ -36,6 +36,8 @@ public class WorkingWithMaps {
         });
         // Print the person with key 3 with default value if it don't exists
         System.out.println(map.getOrDefault(3, new Person("default")));
+        // Print only the values of the map
+        System.out.println(map.values());
     }
 
     static record Person (String name) {}
