@@ -25,9 +25,13 @@ public class WorkingWithMaps {
         System.out.println(map.keySet());
         // Print all the entries
         System.out.println(map.entrySet());
-        // Loop through th map wit entry set
+        // Loop through the map with entry set
         map.entrySet()
                 .forEach(x -> System.out.println(x.getKey() + " " + x.getValue()));
+        // Loop through the map with foreach
+        map.forEach((key, person) -> {
+            System.out.println(key + " " + person);
+        });
     }
 
     static record Person (String name) {}
