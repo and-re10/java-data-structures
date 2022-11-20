@@ -34,7 +34,8 @@ public class WorkingWithMaps {
         map.forEach((key, person) -> {
             System.out.println(key + " " + person);
         });
-
+        // Print the person with key 3 with default value if it don't exists
+        System.out.println(map.getOrDefault(3, new Person("default")));
     }
 
     static record Person (String name) {}
