@@ -1,6 +1,7 @@
 package com.andresantos;
 
 import java.util.LinkedList;
+import java.util.ListIterator;
 import java.util.Queue;
 
 public class WorkingWithQueues {
@@ -12,6 +13,9 @@ public class WorkingWithQueues {
         linkedList.add(new Person("Alexa", 21));
         // Add a new person at the position 1
         linkedList.add(1, new Person("Ali", 18));
+        // Create a ListIterator
+        ListIterator<Person> personListIterator = linkedList.listIterator();
+
 
     }
 
