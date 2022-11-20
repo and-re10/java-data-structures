@@ -21,6 +21,10 @@ public class WorkingWithStacks {
         System.out.println(stack.size());
         // Print if the stack is empty with a true of false
         System.out.println(stack.empty());
-
+        // A Stack extends a Vecto and a Vector implements a List
+        // We can create a Stack with the list interface
+        List<Integer> stack2 = new Stack<>();
+        stack2.add(1);
+        System.out.println(stack2);
     }
 }
