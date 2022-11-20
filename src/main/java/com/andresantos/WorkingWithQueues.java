@@ -10,7 +10,8 @@ public class WorkingWithQueues {
         // Add 2 persons to the Linked List
         linkedList.add(new Person("Alex", 21));
         linkedList.add(new Person("Alexa", 21));
-
+        // Add a new person at the position 1
+        linkedList.add(1, new Person("Ali", 18));
 
     }
 
