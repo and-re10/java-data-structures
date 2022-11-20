@@ -19,6 +19,8 @@ public class WorkingWithSets {
         balls.remove(new Ball("red"));
         // Print the new size of the balls Set
         System.out.println(balls.size());
+        // Add a repeated blue ball to the balls Set
+        balls.add(new Ball("blue"));
 
     }
 
